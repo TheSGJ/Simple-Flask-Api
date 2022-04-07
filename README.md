@@ -1,10 +1,15 @@
---> Move into the directory where we have the project files : 
+## Steps required for configuring the project.
+> Clone the repository using the git bash :
 ```bash
-cd rg-gs
+git clone https://github.com/TheSGJ/Simple-Flask-Api.git
+```
+> Move to the project directory :
+```bash
+cd Simple-Flask-Api
 
 ```
 
---> Create a virtual environment :
+> Create a virtual environment :
 ```bash
 # Let's install virtualenv first
 pip install virtualenv
@@ -14,19 +19,19 @@ virtualenv env
 
 ```
 
---> Activate the virtual environment :
+> Activate the virtual environment :
 ```bash
 env\scripts\activate
 
 ```
 
---> Install the requirements :
+> Install the requirements or install flask directly using pip install flask :
 ```bash
 pip install -r requirements.txt
 
 ```
 
-#
+
 
 ### Running the Flask App:
 
