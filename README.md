@@ -1,6 +1,7 @@
+### About Flask:
 Flask is a minimal Python framework that helps you create a web server. 
 
-Let's take a look at the code we have:
+Let's take a look at the example code we have:
 
 ```python
 from flask import Flask
