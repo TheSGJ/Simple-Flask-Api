@@ -1,3 +1,43 @@
+--> Move into the directory where we have the project files : 
+```bash
+cd rg-gs
+
+```
+
+--> Create a virtual environment :
+```bash
+# Let's install virtualenv first
+pip install virtualenv
+
+# if you want isolate your project then you can create virtual environment to run your flask app separately. (Optional)
+virtualenv env
+
+```
+
+--> Activate the virtual environment :
+```bash
+env\scripts\activate
+
+```
+
+--> Install the requirements :
+```bash
+pip install -r requirements.txt
+
+```
+
+#
+
+### Running the Flask App:
+
+--> To run the App, we use :
+```bash
+flask run
+
+```
+
+> Then, the development server will be started at http://127.0.0.1:5000/
+
 ### About Flask:
 Flask is a minimal Python framework that helps you create a web server. 
 
