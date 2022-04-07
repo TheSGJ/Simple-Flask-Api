@@ -42,7 +42,8 @@ flask run
 ```
 
 > Then, the development server will be started at http://127.0.0.1:5000/
-
+## Get Request using the Http Client:
+![Get Request](https://cdn.jsdelivr.net/gh/thesgj/Simple-Flask-Api/img/GetR_ApiClient.jpg)
 ### About Flask:
 Flask is a minimal Python framework that helps you create a web server. 
 
@@ -69,3 +70,8 @@ We then use the `route()` decorator to tell Flask what URL should trigger our fu
 The function returns the message we want to display in the user’s browser. The default content type is HTML, so HTML in the string will be rendered by the browser.
 
 To learn more, checkout the [official guide](https://flask.palletsprojects.com/en/2.0.x/quickstart/).
+
+# License
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
